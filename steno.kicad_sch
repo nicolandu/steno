@@ -1272,6 +1272,12 @@
 		(uuid "03d9dc02-0237-4161-888a-7f67d1187aa1")
 	)
 	(junction
+		(at 125.73 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0923fcaa-cc7e-4050-84a4-1bf750d6f257")
+	)
+	(junction
 		(at 146.05 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1282,6 +1288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23597367-bd98-4ee6-8894-29814d06e7fe")
+	)
+	(junction
+		(at 217.17 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a410ce4-5b1f-451d-a86c-5526d13c6b18")
 	)
 	(junction
 		(at 106.68 125.73)
@@ -1308,6 +1320,12 @@
 		(uuid "94a99cb8-4c35-4d8d-90ac-9db18bd15d22")
 	)
 	(junction
+		(at 181.61 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963f1252-0b8b-4886-91ef-8b2946e5870a")
+	)
+	(junction
 		(at 71.12 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1320,10 +1338,38 @@
 		(uuid "aff201f1-6822-4d44-978e-efb911b918c4")
 	)
 	(junction
+		(at 181.61 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc29444b-d34b-4301-a769-7ef609685e44")
+	)
+	(junction
+		(at 217.17 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf289a0d-c7ea-4357-9fdb-c19280b6dd08")
+	)
+	(junction
 		(at 106.68 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7e9e679-9529-4c28-a853-7daa5662cbd6")
+	)
+	(junction
+		(at 125.73 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff978d0a-ca4c-4675-9a86-9367bd3ee138")
+	)
+	(wire
+		(pts
+			(xy 168.91 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042174b1-bba0-4f7f-be57-687707942bbe")
 	)
 	(wire
 		(pts
@@ -1337,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 135.89) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0581fea8-b9b0-4c87-96a3-24ad50642d84")
+	)
+	(wire
+		(pts
 			(xy 35.56 115.57) (xy 35.56 125.73)
 		)
 		(stroke
@@ -1344,6 +1400,16 @@
 			(type default)
 		)
 		(uuid "0949a65a-b574-4f81-b3f6-d8ba3bcf6898")
+	)
+	(wire
+		(pts
+			(xy 125.73 161.29) (xy 128.27 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120da103-a2eb-4906-8b06-6c357ce1650a")
 	)
 	(wire
 		(pts
@@ -1357,6 +1423,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 125.73) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24409772-e74d-40e0-a01a-e61d4f135e7c")
+	)
+	(wire
+		(pts
 			(xy 146.05 115.57) (xy 146.05 125.73)
 		)
 		(stroke
@@ -1364,6 +1440,16 @@
 			(type default)
 		)
 		(uuid "24debc51-36e0-42ff-b3af-3a33f53a36b6")
+	)
+	(wire
+		(pts
+			(xy 123.19 161.29) (xy 125.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a96834-736d-450d-a1da-dd0124df5b02")
 	)
 	(wire
 		(pts
@@ -1407,6 +1493,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 125.73) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a1c920-b174-45d4-8ee1-fa84ff3fa18f")
+	)
+	(wire
+		(pts
 			(xy 146.05 125.73) (xy 146.05 130.81)
 		)
 		(stroke
@@ -1437,6 +1533,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 151.13) (xy 125.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50234981-431e-4cda-95cd-890a782b0c10")
+	)
+	(wire
+		(pts
 			(xy 106.68 130.81) (xy 106.68 135.89)
 		)
 		(stroke
@@ -1447,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 135.89) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6daad563-b9f3-488e-8c1a-7da55bda4222")
+	)
+	(wire
+		(pts
 			(xy 35.56 125.73) (xy 35.56 135.89)
 		)
 		(stroke
@@ -1454,6 +1570,16 @@
 			(type default)
 		)
 		(uuid "7365601a-bef7-4826-84bf-ce8807673e8c")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 181.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742707a4-0086-4330-a19f-2efcb2a33e93")
 	)
 	(wire
 		(pts
@@ -1487,6 +1613,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 125.73) (xy 181.61 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d97b063-9c62-4308-9c4c-e05b5ab8c88f")
+	)
+	(wire
+		(pts
 			(xy 71.12 125.73) (xy 71.12 135.89)
 		)
 		(stroke
@@ -1494,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "982b13bf-7eec-4a04-8fbf-d7817785d841")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 184.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4aff99-af51-4180-9e03-5955546d9776")
 	)
 	(wire
 		(pts
@@ -1537,6 +1683,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 135.89) (xy 219.71 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c6f0c9-8124-4728-b2ba-573e31410dc2")
+	)
+	(wire
+		(pts
+			(xy 123.19 151.13) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c184ddce-fc92-439c-9d58-fcd22d4c9766")
+	)
+	(wire
+		(pts
 			(xy 48.26 115.57) (xy 35.56 115.57)
 		)
 		(stroke
@@ -1544,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "c451b467-431f-4b7f-bd50-b6a1aaa6100a")
+	)
+	(wire
+		(pts
+			(xy 217.17 135.89) (xy 217.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c861d9b5-39da-4c7a-9910-1590eb54aab7")
 	)
 	(wire
 		(pts
@@ -1567,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 115.57) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86326d7-d07a-4254-b0ed-96ae454cb092")
+	)
+	(wire
+		(pts
 			(xy 71.12 135.89) (xy 73.66 135.89)
 		)
 		(stroke
@@ -1574,6 +1760,16 @@
 			(type default)
 		)
 		(uuid "dda0a4e0-a7b4-45bb-9b11-51ff57cace6a")
+	)
+	(wire
+		(pts
+			(xy 181.61 125.73) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e106f728-f8e2-4a6f-a406-47c5bc1a2ef8")
 	)
 	(wire
 		(pts
@@ -1597,6 +1793,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 125.73) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3471ec-92bd-472d-ac92-054b083c8ebc")
+	)
+	(wire
+		(pts
 			(xy 35.56 135.89) (xy 38.1 135.89)
 		)
 		(stroke
@@ -1607,6 +1813,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 125.73) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79bfc45-3381-41e2-85fd-34836adc1c77")
+	)
+	(wire
+		(pts
+			(xy 125.73 161.29) (xy 125.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac45cd7-0cf1-4a19-b50e-dae267b1d864")
+	)
+	(wire
+		(pts
 			(xy 68.58 135.89) (xy 71.12 135.89)
 		)
 		(stroke
@@ -1614,6 +1840,26 @@
 			(type default)
 		)
 		(uuid "fadd518d-26c9-4e58-984d-60c53fef3ef1")
+	)
+	(wire
+		(pts
+			(xy 125.73 151.13) (xy 128.27 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc45a025-093e-4ff4-a49e-7be45b687e72")
+	)
+	(wire
+		(pts
+			(xy 204.47 115.57) (xy 217.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd907ed4-eed9-4180-af90-889406b20296")
 	)
 	(label "-B"
 		(at 130.81 45.72 0)
@@ -1702,6 +1948,17 @@
 			(justify left bottom)
 		)
 		(uuid "228ae074-805f-404e-9a43-08864e481027")
+	)
+	(label "-E-"
+		(at 138.43 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "270af69c-e0da-45af-9e88-b27b0de296f5")
 	)
 	(label "-T"
 		(at 204.47 125.73 180)
@@ -1846,6 +2103,17 @@
 		)
 		(uuid "839de0e6-ca80-48f5-b4c7-9d1866ccad23")
 	)
+	(label "NUM2-3"
+		(at 177.8 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca94be2-4335-4382-8143-1bf90e9848ec")
+	)
 	(label "-D"
 		(at 229.87 125.73 0)
 		(fields_autoplaced yes)
@@ -1856,6 +2124,17 @@
 			(justify left bottom)
 		)
 		(uuid "953cb983-da7c-480e-9bd9-0647b50b30ef")
+	)
+	(label "-U-"
+		(at 138.43 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97f43e7f-b9ad-4ab8-b8b9-f7e3aed02f0c")
 	)
 	(label "-S"
 		(at 130.81 55.88 0)
@@ -1955,6 +2234,17 @@
 			(justify right bottom)
 		)
 		(uuid "ad77fc18-e1fd-4278-83e6-745c21df4ef1")
+	)
+	(label "-O-"
+		(at 113.03 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afb824fa-b892-479f-9d61-e5f40d20918f")
 	)
 	(label "-O-"
 		(at 85.09 63.5 180)
@@ -2099,6 +2389,17 @@
 		)
 		(uuid "f321c5dc-8eae-4fc5-90e2-a42c2f00ea59")
 	)
+	(label "-A-"
+		(at 113.03 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f483fc08-c26c-4835-9950-f6925178032c")
+	)
 	(label "K"
 		(at 85.09 43.18 180)
 		(fields_autoplaced yes)
@@ -2160,7 +2461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Common"
+		(property "Footprint" "PiPico:RaspberryPi_Pico_Common_THT"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -2319,12 +2620,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 88.9 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15f83ce7-d5d5-4aa1-874f-647012231102")
 		(property "Reference" "SW8"
 			(at 88.9 107.95 0)
@@ -2342,7 +2643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -2411,7 +2712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 209.55 130.81 0)
 			(effects
 				(font
@@ -2479,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 120.65 0)
 			(effects
 				(font
@@ -2524,13 +2825,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 189.23 135.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28b107d8-d7de-464a-84f2-6139d82de4a2")
 		(property "Reference" "SW16"
 			(at 189.23 128.27 0)
@@ -2548,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 189.23 130.81 0)
 			(effects
 				(font
@@ -2616,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 114.3 125.73 0)
 			(effects
 				(font
@@ -2733,7 +3032,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "445f31e9-b746-432b-9ec2-d0ce866565b0")
 		(property "Reference" "SW22"
 			(at 138.43 123.19 0)
@@ -2751,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -2796,13 +3094,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 153.67 125.73 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "455b514c-1c0a-4469-a77f-ba38e0ad1ff8")
 		(property "Reference" "SW20"
 			(at 153.67 118.11 0)
@@ -2820,7 +3116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -2864,13 +3160,81 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 99.06 135.89 0)
+		(at 118.11 161.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "49aff270-9c9c-4e04-bd7c-aa94ac1fe670")
+		(property "Reference" "SW26"
+			(at 118.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c12527-870e-4fd5-8dbb-12e300a2100d")
+		)
+		(pin "2"
+			(uuid "25564507-a5e5-4b5d-95c9-bef5fb5b3c0c")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "4a969e1a-8cda-4045-b3b7-52fd67b96861")
 		(property "Reference" "SW10"
 			(at 99.06 128.27 0)
@@ -2888,7 +3252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 99.06 130.81 0)
 			(effects
 				(font
@@ -2933,12 +3297,12 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 63.5 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "523cd213-ab80-4579-b78a-9653d197300c")
 		(property "Reference" "SW4"
 			(at 63.5 118.11 0)
@@ -2956,7 +3320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 63.5 120.65 0)
 			(effects
 				(font
@@ -3000,13 +3364,81 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 63.5 135.89 0)
+		(at 118.11 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "62c98e2e-e61c-494d-801a-0c04ffd0556c")
+		(property "Reference" "SW25"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6279c2f7-5b05-4cf5-b9b5-2e9135c6a829")
+		)
+		(pin "2"
+			(uuid "dfb382dc-e448-48b3-826b-811a8059fe76")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 63.5 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "64f88cc7-abf4-44a2-a373-883849cc8ad0")
 		(property "Reference" "SW5"
 			(at 63.5 128.27 0)
@@ -3024,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 63.5 130.81 0)
 			(effects
 				(font
@@ -3092,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 120.65 0)
 			(effects
 				(font
@@ -3136,13 +3568,80 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 99.06 125.73 0)
+		(at 133.35 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "77981098-0d9d-4507-ab00-95db85f083bb")
+		(property "Reference" "SW28"
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66fbf1e2-11d4-4949-91b6-0d1e7301e3ea")
+		)
+		(pin "2"
+			(uuid "9eea2380-675b-43e4-976c-34bb98a94e7c")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "78433e88-855e-433b-b1da-9bf92565537c")
 		(property "Reference" "SW9"
 			(at 99.06 118.11 0)
@@ -3160,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -3229,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -3274,13 +3773,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 189.23 125.73 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b73898c-50c7-4dd8-b621-a0e9adedb667")
 		(property "Reference" "SW15"
 			(at 189.23 118.11 0)
@@ -3298,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 189.23 120.65 0)
 			(effects
 				(font
@@ -3341,6 +3838,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c14217-7a10-425b-a617-b06f29613e88")
+		(property "Reference" "#PWR05"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810b1b63-9f37-4816-87e5-ed559d5f4325")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 78.74 135.89 0)
 		(unit 1)
@@ -3366,7 +3928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -3411,13 +3973,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 224.79 135.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98838e2a-1d19-4f6e-ac8a-46e574ec883d")
 		(property "Reference" "SW24"
 			(at 224.79 128.27 0)
@@ -3435,7 +3995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.79 130.81 0)
 			(effects
 				(font
@@ -3480,13 +4040,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 153.67 135.89 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b1da364-99c8-4465-93b2-dcae6ab0cb6a")
 		(property "Reference" "SW21"
 			(at 153.67 128.27 0)
@@ -3504,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 130.81 0)
 			(effects
 				(font
@@ -3548,6 +4106,73 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 133.35 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb04d8d-ce7e-4241-afad-eac51dca844c")
+		(property "Reference" "SW27"
+			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "201385f9-e860-4b01-973c-86a7f9546f87")
+		)
+		(pin "2"
+			(uuid "c1f5b548-0e7b-4991-957f-f93410444f84")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 199.39 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -3555,7 +4180,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af2ed34a-dc4b-45de-88ab-1f28566cf391")
 		(property "Reference" "SW14"
 			(at 199.39 107.95 0)
@@ -3573,7 +4197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 199.39 110.49 0)
 			(effects
 				(font
@@ -3610,6 +4234,71 @@
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb66eb0-bd97-4ac1-8ecf-6f697b79e98e")
+		(property "Reference" "#PWR07"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a1e6c2-9dde-4738-b261-f0a561a35693")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3707,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 173.99 130.81 0)
 			(effects
 				(font
@@ -3775,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 130.81 0)
 			(effects
 				(font
@@ -3820,13 +4509,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 224.79 125.73 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c616be86-841a-4219-b03c-138780d4825e")
 		(property "Reference" "SW23"
 			(at 224.79 118.11 0)
@@ -3844,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.79 120.65 0)
 			(effects
 				(font
@@ -3954,13 +4641,11 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 163.83 115.57 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ccb935c5-ff25-43b5-bd08-fea5b83b55b2")
 		(property "Reference" "SW19"
 			(at 163.83 107.95 0)
@@ -3978,7 +4663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 163.83 110.49 0)
 			(effects
 				(font
@@ -4086,6 +4771,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d03feb44-af99-4f15-8873-9a3179c3f2a1")
+		(property "Reference" "#PWR06"
+			(at 181.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d3c21b2-d1a0-420f-9142-bae6921b1642")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 173.99 125.73 0)
 		(mirror y)
@@ -4112,7 +4862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 173.99 120.65 0)
 			(effects
 				(font
@@ -4180,7 +4930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_2U_Modified:SW_Cherry_MX_2.00u_PCB"
 			(at 53.34 110.49 0)
 			(effects
 				(font
