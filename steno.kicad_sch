@@ -1168,10 +1168,973 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 35.56 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d9dc02-0237-4161-888a-7f67d1187aa1")
+	)
+	(junction
+		(at 146.05 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "165bd39a-1314-4514-82e2-221ec182ce9a")
+	)
+	(junction
+		(at 146.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23597367-bd98-4ee6-8894-29814d06e7fe")
+	)
+	(junction
+		(at 106.68 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db6350b-3a62-4078-b5c7-e7bac21c9cb3")
+	)
+	(junction
+		(at 71.12 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ff9be1-3d4e-4630-9985-66043a73c773")
+	)
+	(junction
+		(at 35.56 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d4f017b-be41-4129-96ed-c74fa06a265b")
+	)
+	(junction
+		(at 106.68 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a99cb8-4c35-4d8d-90ac-9db18bd15d22")
+	)
+	(junction
+		(at 71.12 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e6ca70-d9de-4c05-9c27-b2edea1663d9")
+	)
+	(junction
+		(at 146.05 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff201f1-6822-4d44-978e-efb911b918c4")
+	)
+	(junction
+		(at 106.68 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7e9e679-9529-4c28-a853-7daa5662cbd6")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056ae001-be3b-48c5-bd3e-c84f813eb580")
+	)
+	(wire
+		(pts
+			(xy 35.56 115.57) (xy 35.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0949a65a-b574-4f81-b3f6-d8ba3bcf6898")
+	)
+	(wire
+		(pts
+			(xy 93.98 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feabb30-b9e2-4afd-aacd-1c4d6d5f5e8c")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24debc51-36e0-42ff-b3af-3a33f53a36b6")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 106.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c05616-4947-4d20-b445-09c1d0604ab6")
+	)
+	(wire
+		(pts
+			(xy 146.05 135.89) (xy 146.05 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d9eca0-a81c-4a73-af1d-08ee3af27614")
+	)
+	(wire
+		(pts
+			(xy 106.68 135.89) (xy 106.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3808e8ae-0866-4d97-aaf6-afc0b672ac45")
+	)
+	(wire
+		(pts
+			(xy 106.68 115.57) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a498dfc-e6b9-4f2a-b96c-0e296538ace9")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4827a29b-dd3c-4dcf-b966-809754bb33b4")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 158.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49360da9-0709-4ebb-ad25-68dcca92728c")
+	)
+	(wire
+		(pts
+			(xy 38.1 125.73) (xy 35.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499c7aec-183a-439b-9716-7e077a3d6092")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 106.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9dd695-101f-461d-a200-da62d92f4d4d")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.73) (xy 35.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7365601a-bef7-4826-84bf-ce8807673e8c")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 143.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744e342e-0816-4a7d-b64b-7fbf3e92d795")
+	)
+	(wire
+		(pts
+			(xy 148.59 125.73) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a718a1-6795-4319-9bcd-b9c522ed12e2")
+	)
+	(wire
+		(pts
+			(xy 58.42 115.57) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afb75bf-cb43-43d3-b4c8-ff8106b09c7a")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 71.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982b13bf-7eec-4a04-8fbf-d7817785d841")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 109.22 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2597de7-ed9c-45cc-a5a0-a3a2e3c95d4d")
+	)
+	(wire
+		(pts
+			(xy 148.59 135.89) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae524285-6749-4f8a-8569-1311976b5feb")
+	)
+	(wire
+		(pts
+			(xy 35.56 138.43) (xy 35.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c02814-115d-4c79-9124-14bb7430f78f")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b268d45c-c8a8-4e5b-b466-835cb98e6d28")
+	)
+	(wire
+		(pts
+			(xy 48.26 115.57) (xy 35.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c451b467-431f-4b7f-bd50-b6a1aaa6100a")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0982e6a-d924-46fa-adfd-2a221196a3cc")
+	)
+	(wire
+		(pts
+			(xy 71.12 135.89) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aadb29-084a-4dd4-9b82-3013ef7de73b")
+	)
+	(wire
+		(pts
+			(xy 71.12 135.89) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda0a4e0-a7b4-45bb-9b11-51ff57cace6a")
+	)
+	(wire
+		(pts
+			(xy 68.58 125.73) (xy 71.12 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87a526c-bd82-4b55-8ad0-2e606276e91b")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacc8910-9724-4058-887a-528d74d98f0f")
+	)
+	(wire
+		(pts
+			(xy 35.56 135.89) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf82b97-2001-4bf6-9934-21d0ddbb57c7")
+	)
+	(wire
+		(pts
+			(xy 68.58 135.89) (xy 71.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadd518d-26c9-4e58-984d-60c53fef3ef1")
+	)
+	(label "-B"
+		(at 130.81 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09886fd2-c9d4-49bf-ac2a-3cc78153af39")
+	)
+	(label "S1"
+		(at 48.26 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b1a5fed-05ed-4c86-b2d2-64d52b3c233c")
+	)
+	(label "-P"
+		(at 168.91 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c9b30a1-1ba4-4589-87cb-5167f72a5df7")
+	)
+	(label "S1"
+		(at 85.09 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d2d3f7a-e86e-4d20-a31a-49a0aec64c2c")
+	)
+	(label "-L"
+		(at 194.31 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d87e73a-4a87-4b7c-8173-a4b64399793d")
+	)
+	(label "-S"
+		(at 204.47 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1db8b71d-f350-44a0-a518-1c48d594ef5c")
+	)
+	(label "W"
+		(at 83.82 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e5f58db-a30b-41d2-9760-3e996791634a")
+	)
+	(label "-Z"
+		(at 130.81 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "228ae074-805f-404e-9a43-08864e481027")
+	)
+	(label "-T"
+		(at 204.47 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38951920-67fa-477c-9c8a-fa0d3e134482")
+	)
+	(label "S0"
+		(at 85.09 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a364d79-e559-4c17-b340-5a08b48282d1")
+	)
+	(label "STAR1"
+		(at 130.81 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43aff70b-2456-4ddb-af6a-d925c14d3cc4")
+	)
+	(label "STAR1"
+		(at 133.35 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "576f9c13-d232-428f-9d90-7169b02ae7e3")
+	)
+	(label "STAR0"
+		(at 119.38 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c4f5f5a-3983-4268-b8cb-a3044fc63517")
+	)
+	(label "NUM0-1"
+		(at 85.09 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61855066-f353-471f-912f-27f64ff71ba1")
+	)
+	(label "-Z"
+		(at 229.87 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6743c784-bf74-4d99-b99a-fc037bae749d")
+	)
+	(label "-A-"
+		(at 85.09 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68c2b801-e727-460c-bbcc-6118105e7b5a")
+	)
+	(label "H"
+		(at 85.09 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cf2460b-d69d-4e4a-b37e-a80ae7c53211")
+	)
+	(label "-D"
+		(at 130.81 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eb27697-a9f9-40fc-bd69-1102fc1bd001")
+	)
+	(label "-P"
+		(at 130.81 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "733f09b1-5ba3-401b-a623-7e748cd2287b")
+	)
+	(label "W"
+		(at 85.09 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "805963b0-7ed8-43be-87a7-3588a8d12624")
+	)
+	(label "H"
+		(at 93.98 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "839de0e6-ca80-48f5-b4c7-9d1866ccad23")
+	)
+	(label "-D"
+		(at 229.87 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953cb983-da7c-480e-9bd9-0647b50b30ef")
+	)
+	(label "-S"
+		(at 130.81 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f520dc9-6566-41c6-9cee-fa0e0141bfb5")
+	)
+	(label "-T"
+		(at 130.81 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a142bdd8-77d1-4dc0-9e2d-a76101fc708d")
+	)
+	(label "P"
+		(at 85.09 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a17b0fe8-b605-421d-ba42-041d36401b37")
+	)
+	(label "-E-"
+		(at 85.09 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3f37c6d-4663-412b-90f6-3bf27c286d9e")
+	)
+	(label "K"
+		(at 58.42 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa82c4d7-cc2a-4174-8b02-e3b373363bfa")
+	)
+	(label "NUM2-3"
+		(at 130.81 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aabad0b3-c5f8-4e59-96f0-d60446a12be8")
+	)
+	(label "-B"
+		(at 168.91 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acd23f37-a1f3-47c9-88d8-f7bc2fac76cc")
+	)
+	(label "-G"
+		(at 194.31 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ace5cd88-b1c5-4ab6-a517-984d7bdba8f1")
+	)
+	(label "STAR0"
+		(at 85.09 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad77fc18-e1fd-4278-83e6-745c21df4ef1")
+	)
+	(label "-O-"
+		(at 85.09 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b10167ba-632a-4fe4-8d1b-14ab5cf81c61")
+	)
+	(label "-L"
+		(at 130.81 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba7e11da-37fb-4652-89b6-a10105cfaf55")
+	)
+	(label "-U-"
+		(at 85.09 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd0545b4-d7f0-4628-a7a0-07a762d4017a")
+	)
+	(label "T"
+		(at 85.09 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c254ed8e-e1c0-4f60-84df-dc47a0898c00")
+	)
+	(label "-R"
+		(at 158.75 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cce3c723-b09b-457e-94ef-429347144206")
+	)
+	(label "P"
+		(at 83.82 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfaa6505-93b7-4147-a844-f758066812d8")
+	)
+	(label "S0"
+		(at 48.26 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfeaed33-1a21-4d97-b319-648fedabb059")
+	)
+	(label "T"
+		(at 58.42 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d58df910-125b-46ed-a97e-fffcac23c59d")
+	)
+	(label "NUM0-1"
+		(at 67.31 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7278102-f7b1-45b7-9a3a-3517a03713fe")
+	)
+	(label "-F"
+		(at 158.75 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e10dfb04-9d5f-47a0-8507-0ce098cb877d")
+	)
+	(label "R"
+		(at 85.09 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3cac4a9-431c-4243-a122-2eb00094fd2f")
+	)
+	(label "R"
+		(at 93.98 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0ac885e-307d-4532-9311-6d21e08e1b2f")
+	)
+	(label "-R"
+		(at 85.09 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f321c5dc-8eae-4fc5-90e2-a42c2f00ea59")
+	)
+	(label "K"
+		(at 85.09 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f631e00d-88dd-4b77-b71b-935a4310c873")
+	)
+	(label "-G"
+		(at 130.81 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f797397d-69c9-4155-b266-ba2ed333676c")
+	)
+	(label "-F"
+		(at 85.09 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f93348fd-9781-4935-b1f8-37b9c365b29f")
 	)
 	(symbol
 		(lib_id "PiPico:RaspberryPi_Pico_W")
-		(at 127 83.82 0)
+		(at 107.95 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1180,7 +2143,7 @@
 		(fields_autoplaced yes)
 		(uuid "11b52b1f-b4f0-45c4-b2bc-802bff5c15b3")
 		(property "Reference" "A1"
-			(at 129.1941 120.65 0)
+			(at 110.1441 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +2152,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico_W"
-			(at 129.1941 123.19 0)
+			(at 110.1441 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +2161,7 @@
 			)
 		)
 		(property "Footprint" "Module_RaspberryPi_Pico:RaspberryPi_Pico_Common"
-			(at 127 133.35 0)
+			(at 107.95 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +2170,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 127 135.89 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +2179,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN"
-			(at 127 138.43 0)
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,16 +2318,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 109.22 0)
+		(at 88.9 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "334ca7e2-ce24-4c6a-842b-63a20f1eb1f0")
-		(property "Reference" "SW7"
-			(at 52.07 101.6 0)
+		(uuid "15f83ce7-d5d5-4aa1-874f-647012231102")
+		(property "Reference" "SW8"
+			(at 88.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +2335,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 104.14 0)
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 104.14 0)
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 104.14 0)
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 109.22 0)
+			(at 88.9 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,15 +2370,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca52e3ba-1529-4acd-8f66-073e5c6a7e55")
+			(uuid "6ec90a33-3e52-473e-8356-6111c4b9efbf")
 		)
 		(pin "2"
-			(uuid "13dca2dc-6906-48a5-8aa8-76d92f73a987")
+			(uuid "932aa5b2-e328-46ab-8d7a-44830691bd68")
 		)
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -1423,16 +2386,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 99.06 0)
+		(at 209.55 135.89 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f21ad6a-3f2c-437c-9c11-e891741f3e39")
-		(property "Reference" "SW6"
-			(at 52.07 91.44 0)
+		(uuid "1bf65655-9ea6-4e6d-9f07-44c2d9e0d25f")
+		(property "Reference" "SW13"
+			(at 209.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +2404,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 93.98 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +2412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 93.98 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +2421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 93.98 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +2430,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 99.06 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,10 +2439,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1f20663-e382-4a66-acbf-0135636af13e")
+			(uuid "803074ed-f662-46f0-bf5e-2999abe6c981")
 		)
 		(pin "2"
-			(uuid "a31951d7-2250-4119-86c2-4a2906262ceb")
+			(uuid "d5889510-4d5a-4493-9234-c549662b158e")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 78.74 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d3828c-8f95-458b-a0ce-380474394527")
+		(property "Reference" "SW6"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 78.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5b05d29-31a8-4695-a4c6-794251f51eec")
+		)
+		(pin "2"
+			(uuid "75f5cae1-0af9-442b-8cd5-cff88a504f17")
 		)
 		(instances
 			(project "steno"
@@ -1491,16 +2523,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 78.74 0)
+		(at 189.23 135.89 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "523cd213-ab80-4579-b78a-9653d197300c")
-		(property "Reference" "SW4"
-			(at 52.07 71.12 0)
+		(uuid "28b107d8-d7de-464a-84f2-6139d82de4a2")
+		(property "Reference" "SW16"
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +2541,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 73.66 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +2549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 73.66 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +2558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 73.66 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +2567,415 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 78.74 0)
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d9cc44c-f83c-4ac7-8fcd-cfa801153d05")
+		)
+		(pin "2"
+			(uuid "43e29d1f-0ba8-4c26-af46-0f6d9eac51a3")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 114.3 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36e5ce5f-3a76-4759-8a07-ac6ff4fae162")
+		(property "Reference" "SW11"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768db8bf-083d-4884-a009-c19dc868e534")
+		)
+		(pin "2"
+			(uuid "2b640d7f-63b6-417e-bbc6-d55a45f07090")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b742677-43c2-44a3-b84c-d23c61e06d6e")
+		(property "Reference" "#PWR04"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d67b55-61d3-48be-b5c6-61069acdcc4b")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 138.43 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "445f31e9-b746-432b-9ec2-d0ce866565b0")
+		(property "Reference" "SW22"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c6bc0ff-2e72-4c49-a96a-7b97c42dbd3b")
+		)
+		(pin "2"
+			(uuid "370dd2f6-f823-4f2a-a2a5-9f96e9ad8957")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 153.67 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455b514c-1c0a-4469-a77f-ba38e0ad1ff8")
+		(property "Reference" "SW20"
+			(at 153.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 153.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf6d28e-cfa9-4d19-9aad-23104ad90c06")
+		)
+		(pin "2"
+			(uuid "910f0709-e919-408a-bed3-335ee186f870")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 99.06 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a969e1a-8cda-4045-b3b7-52fd67b96861")
+		(property "Reference" "SW10"
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f2b7cc-a1a8-4939-a1bc-73bd6d923bf8")
+		)
+		(pin "2"
+			(uuid "2ef34d4e-b03b-45ca-954f-5f1fec67a9a2")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 63.5 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523cd213-ab80-4579-b78a-9653d197300c")
+		(property "Reference" "SW4"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +3000,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 88.9 0)
+		(at 63.5 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1568,7 +3009,7 @@
 		(fields_autoplaced yes)
 		(uuid "64f88cc7-abf4-44a2-a373-883849cc8ad0")
 		(property "Reference" "SW5"
-			(at 52.07 81.28 0)
+			(at 63.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +3017,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 83.82 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +3025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 83.82 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +3034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 83.82 0)
+			(at 63.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 88.9 0)
+			(at 63.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +3068,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 48.26 0)
+		(at 43.18 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1636,7 +3077,7 @@
 		(fields_autoplaced yes)
 		(uuid "761629c9-f729-4f74-911e-9fac3c5b313d")
 		(property "Reference" "SW1"
-			(at 52.07 40.64 0)
+			(at 43.18 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +3085,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 43.18 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +3093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 43.18 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +3102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 43.18 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +3111,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 48.26 0)
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,16 +3136,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 119.38 0)
+		(at 99.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8601f297-b409-4e18-b0f5-7c0f24f26f0d")
-		(property "Reference" "SW8"
-			(at 52.07 111.76 0)
+		(uuid "78433e88-855e-433b-b1da-9bf92565537c")
+		(property "Reference" "SW9"
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +3153,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 114.3 0)
+			(at 99.06 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +3161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 114.3 0)
+			(at 99.06 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +3170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 114.3 0)
+			(at 99.06 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +3179,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 119.38 0)
+			(at 99.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,15 +3188,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "77fbc4d8-a8fa-4832-adbe-57717990bd46")
+			(uuid "fc54c849-3cea-4a8f-be3b-50b7ca5a3664")
 		)
 		(pin "2"
-			(uuid "0e31785d-b46f-49d0-8796-9eb6f40209af")
+			(uuid "66fe4905-d371-446e-a87e-26794c0ebb2b")
 		)
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -1763,16 +3204,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 68.58 0)
+		(at 209.55 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3ee62e8-4074-4b79-ba3f-05e9e9177a8f")
-		(property "Reference" "SW3"
-			(at 52.07 60.96 0)
+		(uuid "7aa94da3-8e19-4e24-b7fa-44bc47c2a5e7")
+		(property "Reference" "SW12"
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +3222,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 63.5 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +3230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 63.5 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +3239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 63.5 0)
+			(at 209.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +3248,553 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 68.58 0)
+			(at 209.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5bfa86-24eb-4e80-9b63-6bf1c7dcc1ab")
+		)
+		(pin "2"
+			(uuid "f88c39a5-ec05-4c4e-81cc-2b3ce9d00a6e")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 189.23 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b73898c-50c7-4dd8-b621-a0e9adedb667")
+		(property "Reference" "SW15"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 189.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "142762e1-9294-486c-8731-67d2365128e8")
+		)
+		(pin "2"
+			(uuid "faa45d8a-90cc-468e-acc1-55a66940e2eb")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 78.74 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f8550f-af55-4488-b530-325b2e2ef5d8")
+		(property "Reference" "SW7"
+			(at 78.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698cb078-d728-40b3-a749-d4e728312b80")
+		)
+		(pin "2"
+			(uuid "8669c1a5-5eb9-4a98-b4d0-307fdde48645")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98838e2a-1d19-4f6e-ac8a-46e574ec883d")
+		(property "Reference" "SW24"
+			(at 224.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b12f4a-96ba-42c7-8977-0888b433ab39")
+		)
+		(pin "2"
+			(uuid "ac696ecb-4814-40f2-9571-e845ca8b6973")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 153.67 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b1da364-99c8-4465-93b2-dcae6ab0cb6a")
+		(property "Reference" "SW21"
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 153.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89bf4494-bee6-4fc9-8748-6c8f8319b2f0")
+		)
+		(pin "2"
+			(uuid "e5a02775-114a-41b7-b2c0-dc611898c5df")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 199.39 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af2ed34a-dc4b-45de-88ab-1f28566cf391")
+		(property "Reference" "SW14"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68d08d0b-d8f0-4660-960a-ab4b567c68d0")
+		)
+		(pin "2"
+			(uuid "999e04bb-2690-4307-bbaf-f71ca69551fb")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b39a3a9b-ad86-4564-b35f-a63679565a6a")
+		(property "Reference" "#PWR02"
+			(at 106.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5479c2f-1645-4844-88a8-6db06ca621f0")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6facb18-f31d-475b-8f36-38e165539c03")
+		(property "Reference" "SW18"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506a18c9-d8b5-4110-92a2-c6fa07b79252")
+		)
+		(pin "2"
+			(uuid "6bd1b017-603b-4bce-aaf8-a37f764318a5")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 43.18 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ee62e8-4074-4b79-ba3f-05e9e9177a8f")
+		(property "Reference" "SW3"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 43.18 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,16 +3819,17 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 52.07 58.42 0)
+		(at 224.79 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "edf28cc2-a0c3-4bfd-bd30-3cdf341eb779")
-		(property "Reference" "SW2"
-			(at 52.07 50.8 0)
+		(uuid "c616be86-841a-4219-b03c-138780d4825e")
+		(property "Reference" "SW23"
+			(at 224.79 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +3837,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 52.07 53.34 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +3845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 53.34 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +3854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 53.34 0)
+			(at 224.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +3863,343 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 58.42 0)
+			(at 224.79 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab7a63a-dd0d-46e6-810c-5d0e87f07e8c")
+		)
+		(pin "2"
+			(uuid "87b45eaa-178b-42d7-ab4d-c399bcb4bbc1")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b7ec7b-cf56-4a79-9a84-e326189e12ec")
+		(property "Reference" "#PWR01"
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ea9b853-1d0e-4fdf-8508-408856fd7930")
+		)
+		(instances
+			(project ""
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 163.83 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccb935c5-ff25-43b5-bd08-fea5b83b55b2")
+		(property "Reference" "SW19"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beeef88b-407a-4350-aaf2-0ff4fbbef731")
+		)
+		(pin "2"
+			(uuid "d9ec1770-9503-45e9-a0cd-34ce503d43ff")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce720a50-acca-4572-a15a-f09db1ac579d")
+		(property "Reference" "#PWR03"
+			(at 71.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47c6bda-ba18-4110-9a93-88911a133df8")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb7b228-af22-4eec-b7ae-cfd2a34e6831")
+		(property "Reference" "SW17"
+			(at 173.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b047d394-5e32-48bf-92a2-7e0469c94b21")
+		)
+		(pin "2"
+			(uuid "2af4262a-a02b-44df-882f-cbe06d3458c2")
+		)
+		(instances
+			(project "steno"
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 53.34 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf28cc2-a0c3-4bfd-bd30-3cdf341eb779")
+		(property "Reference" "SW2"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
