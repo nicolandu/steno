@@ -1773,6 +1773,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 96.52) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e139f37d-a476-47cd-9f88-30a69a476f48")
+	)
+	(wire
+		(pts
 			(xy 68.58 125.73) (xy 71.12 125.73)
 		)
 		(stroke
@@ -2461,7 +2471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PiPico:RaspberryPi_Pico_Common_THT"
+		(property "Footprint" "PiPico:RaspberryPi_Pico_Common"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -4967,6 +4977,71 @@
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe7a3c1c-fede-4505-b884-e2ac4d698e9f")
+		(property "Reference" "#PWR08"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acebe7f8-d4d5-46c1-96ea-be84b96c5b5b")
+		)
+		(instances
+			(project ""
+				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
