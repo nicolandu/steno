@@ -2637,7 +2637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15f83ce7-d5d5-4aa1-874f-647012231102")
-		(property "Reference" "SW8"
+		(property "Reference" "SW3"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -2689,7 +2689,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW8")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bf65655-9ea6-4e6d-9f07-44c2d9e0d25f")
-		(property "Reference" "SW13"
+		(property "Reference" "SW24"
 			(at 209.55 128.27 0)
 			(effects
 				(font
@@ -2758,7 +2758,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW13")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -2774,7 +2774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20d3828c-8f95-458b-a0ce-380474394527")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 78.74 118.11 0)
 			(effects
 				(font
@@ -2826,7 +2826,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -2841,7 +2841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28b107d8-d7de-464a-84f2-6139d82de4a2")
-		(property "Reference" "SW16"
+		(property "Reference" "SW23"
 			(at 189.23 128.27 0)
 			(effects
 				(font
@@ -2893,7 +2893,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW16")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36e5ce5f-3a76-4759-8a07-ac6ff4fae162")
-		(property "Reference" "SW11"
+		(property "Reference" "SW10"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -2961,7 +2961,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW11")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3043,7 +3043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "445f31e9-b746-432b-9ec2-d0ce866565b0")
-		(property "Reference" "SW22"
+		(property "Reference" "SW11"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3095,7 +3095,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW22")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "455b514c-1c0a-4469-a77f-ba38e0ad1ff8")
-		(property "Reference" "SW20"
+		(property "Reference" "SW12"
 			(at 153.67 118.11 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW20")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -3178,7 +3178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49aff270-9c9c-4e04-bd7c-aa94ac1fe670")
-		(property "Reference" "SW26"
+		(property "Reference" "SW27"
 			(at 118.11 153.67 0)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW26")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -3246,7 +3246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a969e1a-8cda-4045-b3b7-52fd67b96861")
-		(property "Reference" "SW10"
+		(property "Reference" "SW20"
 			(at 99.06 128.27 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW10")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523cd213-ab80-4579-b78a-9653d197300c")
-		(property "Reference" "SW4"
+		(property "Reference" "SW7"
 			(at 63.5 118.11 0)
 			(effects
 				(font
@@ -3366,7 +3366,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW4")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62c98e2e-e61c-494d-801a-0c04ffd0556c")
-		(property "Reference" "SW25"
+		(property "Reference" "SW26"
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW25")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -3450,7 +3450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64f88cc7-abf4-44a2-a373-883849cc8ad0")
-		(property "Reference" "SW5"
+		(property "Reference" "SW18"
 			(at 63.5 128.27 0)
 			(effects
 				(font
@@ -3502,7 +3502,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW5")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "761629c9-f729-4f74-911e-9fac3c5b313d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW6"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 		(instances
 			(project ""
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa94da3-8e19-4e24-b7fa-44bc47c2a5e7")
-		(property "Reference" "SW12"
+		(property "Reference" "SW15"
 			(at 209.55 118.11 0)
 			(effects
 				(font
@@ -3774,7 +3774,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW12")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -3789,7 +3789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b73898c-50c7-4dd8-b621-a0e9adedb667")
-		(property "Reference" "SW15"
+		(property "Reference" "SW14"
 			(at 189.23 118.11 0)
 			(effects
 				(font
@@ -3841,7 +3841,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW15")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -3922,7 +3922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f8550f-af55-4488-b530-325b2e2ef5d8")
-		(property "Reference" "SW7"
+		(property "Reference" "SW19"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW7")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -3989,7 +3989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98838e2a-1d19-4f6e-ac8a-46e574ec883d")
-		(property "Reference" "SW24"
+		(property "Reference" "SW25"
 			(at 224.79 128.27 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW24")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb04d8d-ce7e-4241-afad-eac51dca844c")
-		(property "Reference" "SW27"
+		(property "Reference" "SW29"
 			(at 133.35 143.51 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW27")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -4191,7 +4191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af2ed34a-dc4b-45de-88ab-1f28566cf391")
-		(property "Reference" "SW14"
+		(property "Reference" "SW5"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW14")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4390,7 +4390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6facb18-f31d-475b-8f36-38e165539c03")
-		(property "Reference" "SW18"
+		(property "Reference" "SW22"
 			(at 173.99 128.27 0)
 			(effects
 				(font
@@ -4442,7 +4442,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW18")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -4458,7 +4458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3ee62e8-4074-4b79-ba3f-05e9e9177a8f")
-		(property "Reference" "SW3"
+		(property "Reference" "SW17"
 			(at 43.18 128.27 0)
 			(effects
 				(font
@@ -4510,7 +4510,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW3")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -4525,7 +4525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c616be86-841a-4219-b03c-138780d4825e")
-		(property "Reference" "SW23"
+		(property "Reference" "SW16"
 			(at 224.79 118.11 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW23")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb935c5-ff25-43b5-bd08-fea5b83b55b2")
-		(property "Reference" "SW19"
+		(property "Reference" "SW4"
 			(at 163.83 107.95 0)
 			(effects
 				(font
@@ -4709,7 +4709,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW19")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb7b228-af22-4eec-b7ae-cfd2a34e6831")
-		(property "Reference" "SW17"
+		(property "Reference" "SW13"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -4908,7 +4908,7 @@
 		(instances
 			(project "steno"
 				(path "/81be89d4-c12a-4c6e-a91b-ff1d6efea102"
-					(reference "SW17")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
