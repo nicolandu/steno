@@ -236,15 +236,15 @@
 		(remove_unused_layers no)
 		(uuid "d92767e1-9563-4fc4-a10b-96920d8c224a")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.00u_PCB.wrl"
+	(model "${KIPRJMOD}/models/mx.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2.5 -5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
